@@ -1,0 +1,96 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Hintergrundbild */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container für das Layout */
+.container {
+    width: 60%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header-Stil */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff3c00;
+}
+
+header h1 {
+    color: #007BFF;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Sektionen */
+section {
+    margin-bottom: 20px;
+}
+
+/* Überschriften */
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+/* Listen */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Video */
+.video {
+    text-align: center;
+}
+
+video {
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
