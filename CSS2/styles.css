@@ -1,0 +1,129 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* ==================== */
+/* 1. Pseudoklassen */
+/* ==================== */
+.pseudo {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: progress;
+    font-size: 16px;
+}
+
+/* :hover - Wenn die Maus darüberfährt */
+.pseudo:hover {
+    background-color: darkblue;
+}
+
+/* :active - Wenn das Element geklickt wird */
+.pseudo:active {
+    background-color: red;
+}
+
+/* :focus - Wenn das Eingabefeld aktiviert ist */
+.pseudo-input {
+    padding: 8px;
+    border: 2px solid gray;
+    outline: none;
+}
+
+.pseudo-input:focus {
+    border-color: blue;
+    background-color: rgb(183, 15, 235);
+}
+
+
+ul li:nth-child(2) {
+    color: red;
+}
+
+/* ==================== */
+/* 2. Pseudoelemente */
+/* ==================== */
+
+p::before {
+    content: "🔥 ";
+    font-size: 22px;
+}
+
+h1::after {
+    content: " ✅";
+    font-size: 22px;
+    color: green;
+}
+
+p {
+    color: blue;
+    font-weight: bold;
+}
+
+h1 + p{
+    color: red;
+    font-style: italic;
+}
+
+
+h1 ~ p {
+    color: green;
+}
+
+div > p {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+.pseudo-element {
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+}
+
+/* ::before - Fügt Inhalt vor dem Element hinzu */
+.pseudo-element::before {
+    content: "🔥 ";
+    font-size: 22px;
+}
+
+/* ::after - Fügt Inhalt nach dem Element hinzu */
+/* .pseudo-element::after {
+    content: " ✅";
+    font-size: 22px;
+    color: green;
+} */
+
+/* ==================== */
+/* 3. Kombinatoren */
+/* ==================== */
+
+/* > Direkter Kind-Selektor */
+/* .parent > p {
+    color: blue;
+    font-weight: bold;
+} */
+
+/* + Direkt benachbartes Element */
+/* .first + p {
+    color: red;
+    font-style: italic;
+} */
+
+/* ~ Alle nachfolgenden Geschwister */
+/* .reference ~ p {
+    color: green; */
+/* } */
