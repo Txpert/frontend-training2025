@@ -27,9 +27,6 @@ Erstelle eine **HTML-Datei** namens `index.html`, in der du verschiedene **Textf
 - **Füge eine zweite Datei `seite2.html` hinzu**, die von `index.html` aus verlinkt wird.    
 - Füge einen **relativen Link** ein, der zu einer zweiten HTML-Seite (`seite2.html`) führt.  
 
-- **Nutze CSS, um den Text zu stylen.**  
-- **Verwende Listen (`<ul>` oder `<ol>`), um eine Aufzählung zu erstellen.**  
-
 ---
 
 ## **📌 Erwartetes Ergebnis:**  
