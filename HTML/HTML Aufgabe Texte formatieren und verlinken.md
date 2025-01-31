@@ -23,13 +23,10 @@ Erstelle eine **HTML-Datei** namens `index.html`, in der du verschiedene **Textf
 
 ### **4️⃣ Links:**  
 - Füge einen **externen Link (`<a href="">`)** zu einer beliebigen Webseite hinzu.  
-- Erstelle einen **Anker-Link**, der zu einer anderen Stelle innerhalb der gleichen Seite führt.  
+- Erstelle einen **Anker-Link**, der zu einer anderen Stelle innerhalb der gleichen Seite führt.
+- **Füge eine zweite Datei `seite2.html` hinzu**, die von `index.html` aus verlinkt wird.    
 - Füge einen **relativen Link** ein, der zu einer zweiten HTML-Seite (`seite2.html`) führt.  
 
----
-
-## **📌 Erweiterung (Optional)**  
-- **Füge eine zweite Datei `seite2.html` hinzu**, die von `index.html` aus verlinkt wird.  
 - **Nutze CSS, um den Text zu stylen.**  
 - **Verwende Listen (`<ul>` oder `<ol>`), um eine Aufzählung zu erstellen.**  
 
