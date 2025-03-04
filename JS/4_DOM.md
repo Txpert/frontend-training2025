@@ -3,13 +3,14 @@
 Stell dir das DOM wie einen Familienbaum vor. Wenn ein Browser eine HTML-Seite lädt, erstellt er daraus ein strukturiertes Modell - das DOM. In diesem Modell wird jedes Element der Webseite (Überschriften, Absätze, Bilder, etc.) zu einem "Objekt", das in einer Baumstruktur organisiert ist.
 
 -----
-
 ## Wie ist das DOM strukturiert?
 
 Das DOM ist hierarchisch aufgebaut, ähnlich wie ein Stammbaum:
 - An der Spitze steht das "document" (die gesamte Seite)
 - Darunter gibt es "Zweige" wie der HTML-Tag, der body-Tag etc.
 - Die "Blätter" sind dann konkrete Elemente wie Absätze, Überschriften oder Bilder
+
+---
 
 Jedes Element in diesem Baum nennen wir einen "Knoten" oder "Node".
 
@@ -30,6 +31,8 @@ const container = document.getElementById("container");
 const paragraph = container.querySelector("p");
 console.log(paragraph.textContent); // Ausgabe: Hello, World!
 ```
+
+---
 
 Der wesentliche Unterschied ist:
 - HTML ist statischer Text/Code - wie ein Bauplan

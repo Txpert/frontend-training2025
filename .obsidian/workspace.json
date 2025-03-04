@@ -109,12 +109,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/DOM.md",
+                "file": "JS/Coding Policies 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM"
+              "title": "Coding Policies 1"
             }
           }
         ],
@@ -262,8 +262,9 @@
   },
   "active": "db52153f2374f1ec",
   "lastOpenFiles": [
-    "JS/Coding Policies 1.md",
     "JS/DOM.md",
+    "JS/4_DOM.md",
+    "JS/Coding Policies 1.md",
     "Projekte/product-management-system/js/script.js",
     "Projekte/product-management-system/css/style.css",
     "Projekte/product-management-system/js",
