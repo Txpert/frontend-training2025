@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Taschenrechner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    input {
+      padding: 5px;
+      margin: 5px;
+      width: 100px;
+    }
+    button {
+      padding: 5px 10px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Taschenrechner</h1>
+  
+  <!-- Eingabefelder für die beiden Zahlen -->
+  <label for="zahl1">Zahl 1:</label>
+  <input type="number" id="zahl1" placeholder="Zahl 1">
+  <br>
+  <label for="zahl2">Zahl 2:</label>
+  <input type="number" id="zahl2" placeholder="Zahl 2">
+  <br>
+  
+  <!-- Schaltflächen für die vier Operationen -->
+  <button onclick="berechneAddition()">Addition</button>
+  <button onclick="berechneSubtraktion()">Subtraktion</button>
+  <button onclick="berechneMultiplikation()">Multiplikation</button>
+  <button onclick="berechneDivision()">Division</button>
+  
+  <!-- Ergebnisanzeige -->
+  <h2 id="ergebnis">Ergebnis: </h2>
+  
+  <!-- Einbindung der externen JavaScript-Datei -->
+  <script src="JS/calculator.js"></script>
+</body>
+</html>

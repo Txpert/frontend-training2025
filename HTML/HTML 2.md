@@ -261,8 +261,6 @@
 
   
 
-  
-
 **Attribute und Validierungsmöglichkeiten**
 
 • **Attribute**:

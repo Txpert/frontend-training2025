@@ -1,0 +1,20 @@
+/* Setzt die Hintergrundfarbe der gesamten Seite */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+/* Ändert die Farbe des <h1>-Tags */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Stilisiert die Box */
+.box {
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+    margin: 50px auto; /* Zentriert die Box horizontal */
+    border: 2px solid black;
+}

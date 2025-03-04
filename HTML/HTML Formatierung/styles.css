@@ -1,0 +1,15 @@
+ p {           
+     color: blue; 
+    }    
+
+.text p {             
+     color: rgb(4, 57, 135); 
+    }   
+
+    a[href^="https://google"] {
+        color: green;
+    }
+
+    a[href$=".com"] {
+        color: green;
+    }
