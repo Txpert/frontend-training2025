@@ -1,0 +1,351 @@
+{
+  "main": {
+    "id": "6bfd187d0a09941d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4877aed28decc62f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfde411c52f0f6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/CSS 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSS 1"
+            }
+          },
+          {
+            "id": "2553c5ee75177e42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/CSS 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSS 1"
+            }
+          },
+          {
+            "id": "10ee15ef2d0c0428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Pseudoklassen, Pseudoelementen, Kombinatoren.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pseudoklassen, Pseudoelementen, Kombinatoren"
+            }
+          },
+          {
+            "id": "9261db5f7fbf90df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Pseudoklassen, Pseudoelementen, Kombinatoren.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pseudoklassen, Pseudoelementen, Kombinatoren"
+            }
+          },
+          {
+            "id": "9a9cf863ea269f79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Vererbung.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vererbung"
+            }
+          },
+          {
+            "id": "54bc45948807e223",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/HTML Aufgabe Texte formatieren und verlinken.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTML Aufgabe Texte formatieren und verlinken"
+            }
+          },
+          {
+            "id": "fcb80dbed78dfcda",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
+          },
+          {
+            "id": "db52153f2374f1ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/4_DOM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4_DOM"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eb35fa4e36ac50cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "30eaa86769f6d86c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcbfa7e89d43756a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c9dbee633f1a0e3e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "64316e7d831aeec9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "895e918dcdc5f4e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "44729a136337d967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bafe03f1036780f3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTML/HTML 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for HTML 2"
+            }
+          },
+          {
+            "id": "7f8b6c4b5c9aa8d1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTML/HTML 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from HTML 2"
+            }
+          },
+          {
+            "id": "6193ca5a329d79e5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "118cd81727a22a2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTML/HTML 2.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HTML 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "floating": {
+    "id": "68c9084bd64cc0c7",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f302cbfb2f7b7e5e",
+        "type": "window",
+        "children": [
+          {
+            "id": "0964283f114c964c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a327d084325381d5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "JS/4_DOM.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "4_DOM"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1546,
+        "y": 216,
+        "width": 1121,
+        "height": 809,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "a327d084325381d5",
+  "lastOpenFiles": [
+    "JS/4_playground/style.css",
+    "JS/4_playground/main.js",
+    "JS/4_playground/lern-zettel.md",
+    "JS/4_playground/index.html",
+    "JS/4_playground/Bauplan.md",
+    "JS/4_playground",
+    "JS/playground/style.css",
+    "JS/playground/lern-zettel.md",
+    "JS/playground/main.js",
+    "JS/playground/index.html",
+    "JS/playground/Bauplan.md",
+    "JS/playground",
+    "JS/Coding Policies 1.md",
+    "JS/DOM.md",
+    "JS/4_DOM.md",
+    "Projekte/product-management-system/js/script.js",
+    "Projekte/product-management-system/css/style.css",
+    "Projekte/product-management-system/js",
+    "Projekte/product-management-system/README.md",
+    "Projekte/product-management-system/DOM-Erklärung.md",
+    "Projekte/warenkorb/assets/images/products/toy-car.jpg",
+    "Projekte/warenkorb/assets/images/products/fairy-tale-book.jpg",
+    "Projekte/warenkorb/assets/images/products/chocolate.jpg",
+    "Projekte/warenkorb/assets/images/icons/remove.svg",
+    "Projekte/warenkorb/assets/images/icons/cart.svg",
+    "Projekte/warenkorb/README.md",
+    "Assets/Screenshot 2025-02-12 at 10.59.54.png",
+    "Assets/Screenshot 2025-02-12 at 10.56.50.png",
+    "CV/profilbild.jpg",
+    "JS/Notes.md",
+    "JS/aufgabe-rf.md",
+    "Screenshot 2025-02-12 at 10.59.54.png",
+    "Screenshot 2025-02-12 at 10.56.50.png",
+    "HTML/Grundlagen der Textformatierung in HTML.md",
+    "HTML/HTML Aufgabe Texte formatieren und verlinken.md",
+    "CSS/Vererbung.md",
+    "CSS/Pseudoklassen, Pseudoelementen, Kombinatoren.md",
+    "CSS/Erweiterte CSS-Selektoren 1.md",
+    "CSS/CSS 1.md",
+    "CSS/Anleitung.md",
+    "CSS/Aufgabe Verwenden eines externen CSS.md",
+    "HTML/HTML 2.md",
+    "CSS/div.md",
+    "CSS/Grundlagen.md",
+    "HTML/Shortcuts.md",
+    "Untitled 1.md"
+  ]
+}
