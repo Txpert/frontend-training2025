@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodcut Mangement System</title>
+</head>
+<body>
+    <div>
+        <h1>Produktverwaltungssystem</h1>
+        <div class="product-form">
+            <h2>Neues Produkt hinzufügen</h2>
+            <form id="productForm">
+                <div>
+                    <label for="productName">Produktname:</label>
+                    <input type="text" id="productName" required>
+                </div>
+                <div>
+                    <label for="productPrice">Preis:</label>
+                    <input type="number" id="productPrice" step="0.01" required>
+                </div>
+                <div>
+                    <label for="productDescription">Beschreibung:</label>
+                    <textarea id="productDescription" required></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="product-list">
+            <h2>Produktliste</h2>
+            <div id="productList"></div>
+        </div>
+    </div>
+</body>
+</html>
