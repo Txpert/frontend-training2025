@@ -1,5 +1,6 @@
 # Dependencies
 /.obsidian
+/Assets
 /node_modules
 /.pnp
 .pnp.js
