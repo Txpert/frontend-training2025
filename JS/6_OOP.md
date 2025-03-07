@@ -169,7 +169,7 @@ max.noteHinzufügen("Deutsch", 1);
 max.zeugnisAnzeigen();
 ```
 
-## Tipps für Anfänger
+## Tipps
 
 1. **Denke in Dingen**: Objekte repräsentieren Dinge aus der echten Welt mit Eigenschaften und Aktionen.
     
@@ -181,5 +181,3 @@ max.zeugnisAnzeigen();
     
 5. **Vererbung spart Arbeit**: Wenn zwei Objekte ähnlich sind, lass eines vom anderen erben, um Code zu sparen.
     
-
-Ich hoffe, diese Erklärungen und Beispiele helfen dir, Objekte in JavaScript besser zu verstehen! Hast du noch Fragen zu einem bestimmten Teil?
