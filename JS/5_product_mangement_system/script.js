@@ -1,22 +1,51 @@
-// speichert alle Produkte
-let produktListe = [];
-
 // Funktion zum Erstellen eines neuen Produkts
-function erstelleProdukt(name, preis, beschreibung) {
-    return {
-        id: Date.now(), // Eindeutige ID
-        name: name,
-        preis: preis,
-        beschreibung: beschreibung
-    };
+class Product {
+    constructor(name, preis, beschreibung) {
+        this.id = Date.now(); // Eindeutige ID basierend auf Zeitstempel
+        this.name = name;
+        this.preis = preis;
+        this.beschreibung = beschreibung;
+    }
 }
 
-//Funktion zum Hinzufügen eines Produkts
-function produktHinzufuegen(name, preis, beschreibung){
-    let neuesProdukt = erstelleProdukt(name, preis, beschreibung);
-    produktListe.push(neuesProdukt);
-    produkteAnzeigen();
+
+class Shop{
+    constructor(){
+        this.prducts = [];
+    }
+
+    produktHinzufuegen(product){
+        this.prducts.push(product);
+        this.produkteAnzeigen();
+    }
+
+
+    produkteAnzeigen(){
+
+        const produktsContainer = document.getElementById("productsList");
+        // Liste leeren
+        produktsContainer.innerHTML = "";
+        
+        this.products.forEach(produkt =>{ 
+          //Neues Div für das Warenkprb-Element erstellen
+        const produktBox = `
+                <div>
+                    <h3>${produkt.name}</h3>
+                    <p class="price">${produkt.preis.toFixed(2)} €</p>
+                    <p>${produkt.beschreibung}</p>
+                </div>
+         `;
+          //html IN DAS Element einfügen
+          produktsContainer.innerHTML += produktBox;
+      
+         // Element zum Warenkorb hinzufügen
+        });
 }
+}
+
+let shop = new shop();
+//Funktion zum Hinzufügen eines Produkts
+
 
 // // Funktion zum Entfernen eines Produkts
 // function produktEntfernen(id){
@@ -26,27 +55,8 @@ function produktHinzufuegen(name, preis, beschreibung){
 
 
 // Funktion zum Anzeigen aller Produkte
-function produkteAnzeigen(){
 
-    const produktsContainer = document.getElementById("productsList");
-    // Liste leeren
-    produktsContainer.innerHTML = "";
-    
-    produktListe.forEach(produkt =>{ 
-      //Neues Div für das Warenkprb-Element erstellen
-     const produktBox = `
-            <div>
-                <h3>${produkt.name}</h3>
-                <p class="price">${produkt.preis.toFixed(2)} €</p>
-                <p>${produkt.beschreibung}</p>
-            </div>
-     `;
-      //html IN DAS Element einfügen
-      produktsContainer.innerHTML += produktBox;
   
-     // Element zum Warenkorb hinzufügen
-    });
-  }
 
 // Event-Listener für das Formular
 document.getElementById("productForm").addEventListener("submit", function(e){
@@ -56,5 +66,7 @@ let name = document.getElementById("productName").value;
 let preis = parseFloat(document.getElementById("productPrice").value);
 let beschreibung = document.getElementById("productDescription").value;
 
-produktHinzufuegen(name, preis, beschreibung);
+let product = new Product(name, preis, beschreibung);
+
+shop.produktHinzufuegen(product);
 });
