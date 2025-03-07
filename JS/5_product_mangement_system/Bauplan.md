@@ -1,6 +1,5 @@
-1-Alle Produkte speichern
+1- Alle Produkte speichern  
 Arrays
-6
 
 2- Funktion Produkte hinzufügen
 push  
