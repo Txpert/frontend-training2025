@@ -1,0 +1,1 @@
+Aufgabe: Erstelle ein Objekt, das einen Superhelden darstellt. Der Superheld soll einen Namen, eine Superkraft und einen Gesundheitswert haben. Füge eine Methode hinzu, die den Superhelden seine Superkraft einsetzen lässt.
