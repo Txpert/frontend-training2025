@@ -1,0 +1,1 @@
+Aufgabe: Erstelle eine Klasse Fahrzeug mit den Eigenschaften marke, modell und geschwindigkeit (startet bei 0). Füge Methoden zum Beschleunigen und Bremsen hinzu. Erstelle dann eine Unterklasse Auto, die von Fahrzeug erbt und zusätzlich eine Eigenschaft anzahlTüren hat sowie eine neue Methode hupen().
