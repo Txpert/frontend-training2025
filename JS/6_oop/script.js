@@ -16,14 +16,14 @@ class Sportwagen extends Auto {
         this.mods = mods;
         this.bodykit = bodykit;  
     }
-    turboaktivieren(){
+    turboAktivieren(){
         this.maxGeschwindigkeit = this.maxGeschwindigkeit + 100;
         console.log(this.maxGeschwindigkeit);
     }
 }
 
 let meinSportwagen = new Sportwagen("blau", "Ferrari", 320, 2, "ja", "original");
-meinSportwagen.turboaktivieren();
+meinSportwagen.turboAktivieren();
 
 // let meinAuto = new Auto("weiß", "Audi");
 // let Auto1 = new Auto("weiß", "Audi");

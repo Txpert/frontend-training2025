@@ -1,6 +1,6 @@
 ## Was sind Objekte?
 
-Stell dir vor, du hast ein Auto. Dieses Auto hat verschiedene Eigenschaften: Farbe, Geschwindigkeit, Marke, Reifen. Ein JavaScript-Objekt ist wie diese Garage - es speichert verschiedene Dinge zusammen, die zusammengehören.
+Stell dir vor, du hast ein Auto. Dieses Auto hat verschiedene Eigenschaften: Farbe, Geschwindigkeit, Marke, Reifen. Ein JavaScript-Objekt ist wie dieses Auto - es speichert verschiedene Dinge zusammen, die zusammengehören.
 
 ```javascript
 // Ein einfaches Objekt
