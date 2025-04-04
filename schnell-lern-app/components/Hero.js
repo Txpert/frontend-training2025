@@ -12,7 +12,7 @@ export default function Hero() {
     {/* Navigation Bar */}
 
     
-    <nav className="container mx-auto flex justify-between items-center mb-16"> {/* Container, Flexbox, verteilt Elemente, zentriert vertikal, Abstand nach unten */}
+    <nav className="container mx-auto flex justify-between items-center mb-18"> {/* Container, Flexbox, verteilt Elemente, zentriert vertikal, Abstand nach unten */}
         {/* Logo/App Name (links) */}
         <div className="text-2xl font-bold">
           SchnellLern App

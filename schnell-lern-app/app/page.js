@@ -17,7 +17,7 @@ export default function LandingPage() {
       <Hero />
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-100"> {/* Hintergrund für den Abschnitt, vertikales Padding */}
+      <section id="features" className="py-16 bg-gray-100"> {/* Hintergrund für den Abschnitt, vertikales Padding */}
         <div className="container mx-auto px-4"> {/* Zentrierter Container mit horizontalem Padding */}
 
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
