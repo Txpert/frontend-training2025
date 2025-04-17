@@ -90,6 +90,18 @@ export default function LoginForm() {
       <button type="submit" disabled={isLoading} style={buttonStyle}>
         {isLoading ? 'Melde an...' : 'Anmelden'} {/* Zeige Ladezustand an */}
       </button>
+
+      {/* Abstand zwischen den Buttons */}
+      <div style={{ marginTop: '15px' }}></div>
+
+      {/* Google Sign-In Button */}
+      <button 
+        type="button" // Wichtig: type="button", damit das Formular nicht abgeschickt wird
+        onClick={() => signIn('google')} // Rufe signIn mit 'google' auf
+        style={buttonStyle} // Wiederverwende den Button-Stil
+      >
+        Mit Google anmelden
+      </button>
     </form>
   );
 }
@@ -101,4 +113,5 @@ const buttonStyle = {
   border: '1px solid #ccc',
   borderRadius: '4px',
   backgroundColor: '#eee',
+  color: 'black', // Textfarbe explizit auf Schwarz setzen
 };

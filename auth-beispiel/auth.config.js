@@ -1,11 +1,17 @@
 // auth.config.js
 
+import Google from 'next-auth/providers/google'; // Importiere den Google Provider
 import Credentials from 'next-auth/providers/credentials'; // Importiere den Credentials Provider
 
 // Definiere die Konfiguration für next-auth
 export default {
   // Hier listen wir die Authentifizierungs-Anbieter auf
   providers: [
+    // Google Provider hinzufügen
+    Google({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    }),
     // Konfiguration für den Benutzername/Passwort-Login
     Credentials({
       // Dieser Abschnitt ist optional und definiert Felder für eine automatisch generierte Login-Seite.
@@ -32,6 +38,7 @@ export default {
         // Wir prüfen nur hartcodierte Werte. NIEMALS so in Produktion verwenden!
         const testEmail = "test@test.com";
         const testPassword = "password123";
+        
 
         if (credentials.email === testEmail && credentials.password === testPassword) {
           console.log('Credentials OK, gebe Benutzerobjekt zurück.');
