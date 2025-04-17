@@ -11,7 +11,7 @@ export default function AuthButtons() {
   if (status === "loading") {
     return <p>Prüfe Login...</p>;
   }
-
+// hi
   // Wenn der Benutzer eingeloggt ist
   if (status === "authenticated") {
     return (
