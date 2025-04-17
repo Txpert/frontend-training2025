@@ -48,6 +48,11 @@ export default {
     }) // Ende Credentials Provider
   ], // Ende providers Array
 
+  // Hier fügen wir die Seitenkonfiguration hinzu
+  pages: {
+    signIn: '/login', // Leite zum Anmelden auf /login weiter
+  },
+
   // Optional: Eigene Login-Seite angeben (standardmäßig /api/auth/signin)
   // pages: {
   //   signIn: '/login', // Wenn du eine eigene Seite unter /login erstellen würdest
